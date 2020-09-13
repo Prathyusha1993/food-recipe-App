@@ -18,10 +18,11 @@
 .search-form {
   width: 30rem;
   height: 40px;
-  display: flex;
+  padding: 10px;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
-  background-color: palegreen;
+  background-color: #c1f3c1;
   border-radius: 0rem;
   margin-bottom: 4rem;
   box-shadow: 0rem 0rem 1rem #aaa;
@@ -46,7 +47,10 @@
 .search-form button{
   /*padding:0 3rem;
   width: 20%;*/
-  background-color:#40b48e;
+  background-color:#76dc76;
+  height: 30px;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .recipes {

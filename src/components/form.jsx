@@ -5,8 +5,8 @@ class Form extends Component {
     render() { 
         return ( 
             <div className="search-form">
-                <form onSubmit={this.props.getRecipe}>
-                    <input type="text" name="recipe" placeholder="food item..." />
+                <form onSubmit={this.props.getRecipe} style={{padding: "5px"}}>
+                    <input type="text" name="recipe" placeholder="Enter a food item.. ex: milk" />
                     <button>Get Recipe</button>
                 </form>
             </div>
